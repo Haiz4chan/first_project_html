@@ -1,0 +1,41 @@
+h1,
+p,
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h2 {
+  color: rgb(34, 54, 145);
+}
+.toc {
+  background-color: #f9f9f9;
+  padding: 2px;
+  border: 1px solid #ddd;
+  width: 300px;
+  position: fixed;
+}
+.toc ul {
+  list-style-type: none;
+  padding: 0;
+}
+.toc li {
+  margin: 20px 0;
+}
+.toc a {
+  text-decoration: none;
+  color: #007bff;
+}
+.toc a:hover {
+  text-decoration: underline;
+}
+.content {
+  margin-left: 300px;
+}
+.section {
+  margin-top: 20px;
+}
